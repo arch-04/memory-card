@@ -1,0 +1,27 @@
+.cards{
+    display: grid;
+    grid-template-columns: repeat(6, minmax(200px, 1fr));
+    padding: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+    background-color: lightseagreen;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin-top:20px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.card:hover{
+    border: 2px solid yellow;
+}
+
+
+
